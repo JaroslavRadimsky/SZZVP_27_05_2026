@@ -2,8 +2,6 @@
 
 ## Architektura
 
-Aplikace navazuje na jednoduché vrstvení z projektu `05-rss-reader-android`:
-
 - `MainActivity` zobrazuje historii měření a spouští samostatnou obrazovku měření.
 - `TrackingActivity` běží po dobu aktivity, čte senzory a GPS, ukládá vzorky a zobrazuje notifikaci.
 - `MeasurementDetailActivity` zobrazuje detail jednoho měření, přepínatelný graf a export CSV.
@@ -68,7 +66,7 @@ Výsledná hodnota se omezí na maximum `10.0`, aby ojedinělý prudký pohyb te
 - `2.0` až `4.0` - střední,
 - `4.0` a více - vysoká.
 
-Tato metoda byla zvolena proto, že je jednoduchá, dostupná na běžných telefonech a funguje i bez GPS nebo specializovaných sportovních API. Pro zadání stačí orientační intenzita pohybu, nikoli přesná fyziologická metrika. Výpočet z velikosti zrychlení navíc nezávisí na tom, jak je telefon otočený v kapse nebo v ruce, protože slučuje všechny tři osy do jedné hodnoty.
+Tato metoda byla zvolena proto, že je jednoduchá, dostupná na běžných telefonech a funguje i bez GPS nebo specializovaných sportovních API. Výpočet z velikosti zrychlení navíc nezávisí na tom, jak je telefon otočený v kapse nebo v ruce, protože slučuje všechny tři osy do jedné hodnoty.
 
 ## GPS vzdálenost
 

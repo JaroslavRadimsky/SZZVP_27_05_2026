@@ -69,5 +69,5 @@ Na Androidu 10 a novějším aplikace požádá o oprávnění `Activity recogni
 
 ## Dokumentace
 
-- Technická dokumentace: `developer.md`
+- Technická dokumentace: `TECHNICAL_GUIDE.md`
 - Uživatelská příručka: `USER_GUIDE.md`

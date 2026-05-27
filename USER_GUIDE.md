@@ -15,7 +15,7 @@ Pokud aplikace 30 sekund nezaznamená kroky, výraznější pohyb telefonu ani G
 ## Ukončení měření
 
 1. Na obrazovce měření klepněte na `Ukoncit a ulozit`.
-2. Měření se uloží do SQLite databáze.
+2. Měření se uloží do databáze.
 3. V seznamu `Ulozena mereni` se objeví nový záznam.
 
 Pokud stisknete tlačítko zpět, aplikace se nejprve zeptá, zda chcete měření ukončit a uložit.
@@ -33,7 +33,6 @@ Klepnutím na řádek v seznamu otevřete detail. Detail zobrazuje:
 - počet vzorků,
 - graf s přepínačem metriky: intenzita, rychlost, tempo nebo vzdálenost.
 
-Detail už nezobrazuje dlouhý textový seznam všech vzorků. Vzorky zůstávají dostupné v CSV exportu.
 
 ## Mazání měření
 
